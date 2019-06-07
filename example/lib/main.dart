@@ -48,7 +48,21 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Column(
+           children: <Widget>[
+             Text('Running on: $_platformVersion\n'),
+             RaisedButton(
+               child: Text("Share on FB"),
+               onPressed: (){
+                 print("Pressed");
+                 CtFacebookSdkFlutter().shareToFacebook(
+                   url: "https://github.com/biswa1751",
+                   msg: "Sending"
+                 );
+               },
+             )
+           ],
+          ),
         ),
       ),
     );
