@@ -1,4 +1,4 @@
-package in.cookytech.ct_facebook_sdk_flutter
+package `in`.cookytech.ct_facebook_sdk_flutter
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
@@ -16,8 +16,11 @@ class CtFacebookSdkFlutterPlugin: MethodCallHandler {
   }
 
   override fun onMethodCall(call: MethodCall, result: Result) {
-    if (call.method == "getPlatformVersion") {
-      result.success("Android ${android.os.Build.VERSION.RELEASE}")
+    if (call.method == "addTwoNumbers") {
+      var a : Int? = call.argument("first");
+      var b: Int?= call.argument("second");
+      if(a != null && b != null)
+      result.success(a+b);
     } else {
       result.notImplemented()
     }

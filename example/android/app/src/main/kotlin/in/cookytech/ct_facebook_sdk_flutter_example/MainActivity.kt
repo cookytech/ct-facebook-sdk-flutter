@@ -1,4 +1,4 @@
-package in.cookytech.ct_facebook_sdk_flutter_example
+package `in`.cookytech.ct_facebook_sdk_flutter_example
 
 import android.os.Bundle
 

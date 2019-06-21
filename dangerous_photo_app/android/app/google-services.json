@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556041016520",
+    "firebase_url": "https://dangerous-photo-app.firebaseio.com",
+    "project_id": "dangerous-photo-app",
+    "storage_bucket": "dangerous-photo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556041016520:android:40e79ec6f789fdd7",
+        "android_client_info": {
+          "package_name": "in.cookytech.dangerous_photo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556041016520-2ik4d17k812hkp8uvr767lqr3tihtm1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.cookytech.dangerous_photo_app",
+            "certificate_hash": "8c9e5a5b36dfcf3182707aea22564cee0b22a4ae"
+          }
+        },
+        {
+          "client_id": "556041016520-3hdbj8t3l4uqo4asvjlb79mmhbu2hekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ewUW1_EMhXzNHwWZM-VuH1uEixCq0kA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556041016520-3hdbj8t3l4uqo4asvjlb79mmhbu2hekm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

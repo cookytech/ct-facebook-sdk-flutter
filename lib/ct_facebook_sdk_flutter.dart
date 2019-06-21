@@ -6,8 +6,8 @@ class CtFacebookSdkFlutter {
   static const MethodChannel _channel =
       const MethodChannel('ct_facebook_sdk_flutter');
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
+  static Future<int>  platformVersion(int a , int b) async {
+    final int sum = await _channel.invokeMethod<int>('addTwoNumbers', {"first":a,"second":b});
+    return sum;
   }
 }
